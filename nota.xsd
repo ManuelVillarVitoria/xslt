@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+<xs:element name="note">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="to" type="xs:string"/>
+      <xs:element name="from" type="xs:string"/>
+      <xs:element name="datenote" type="xs:date"/>
+      <xs:element name="timenote" type="xs:time" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="phone">
+        <xs:complexType>
+        <!-- Atribut de l'element phone obligatori -->
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="callback" type="xs:boolean" use="required"/>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>      
+      <xs:element name="heading" type="xs:string"/>
+      <xs:element name="body" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="marcadores.xsd">
+   <pagina>
+      <nombre>Abrirllave</nombre>
+      <initials>HFS</initials>
+      <descripcion>Tutoriales de informática.</descripcion>
+      <url>http://www.abrirllave.com/</url>
+      <option value="hola">dsfsd</option>
+   </pagina>
+   <pagina>
+      <nombre>Wikipedia</nombre>
+      <initials>HFS</initials>
+      <descripcion>La enciclopedia libre.</descripcion>
+      <url>http://www.wikipedia.org/</url>
+      <option value="sdas">sdfsd</option>
+   </pagina>
+   <pagina>
+      <nombre>W3C</nombre>
+      <descripcion>World Wide Web Consortium.</descripcion>
+      <url>http://www.w3.org/</url>
+      <option value="hola"></option>
+   </pagina>
+</marcadores>

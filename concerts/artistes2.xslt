@@ -13,7 +13,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
       </tr>
       <xsl:for-each select="catalog/cd">
         
-        <xsl:if test="count(tours) > 0">
+        <xsl:if test="count(tours) > 0 and price > 10.85">
           <tr>
             <td><xsl:value-of select="artist/name"/></td>
             <td>

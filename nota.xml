@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<note xmlns="https://www.w3schools.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.w3schools.com nota.xsd">
+  <to>Tove</to>
+  <from>Jani</from>
+  <datenote>2016-02-29</datenote>
+  <timenote>13:20:00</timenote>
+  <phone callback="1">8-678-9887</phone>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+</note>
